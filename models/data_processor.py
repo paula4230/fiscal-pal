@@ -6,7 +6,7 @@ from sklearn.compose import ColumnTransformer
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
-dataset = pd.read_csv('Data.csv')
+dataset = pd.read_csv('/data/Data.csv')
 X = dataset.iloc[ : , :-1].values
 Y = dataset.iloc[ : , 3].values
 
